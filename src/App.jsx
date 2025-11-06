@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Why from "./components/why.jsx";
+import Why from "./components/Why.jsx";
 import Answer from "./components/Answer.jsx";
 import Card from "./components/Card.jsx";
 import Assigment from "./components/Assigment.jsx";
