@@ -1,0 +1,100 @@
+#root {
+  text-align: center;
+}
+
+.why{
+  font-size: 1.5rem;
+  font-weight: 500;
+  background-color: #bca8a8;
+  border: 2px solid black;
+  border-radius:2rem ;
+  -webkit-border-radius:2rem ;
+  -moz-border-radius:2rem ;
+  -ms-border-radius:2rem ;
+  -o-border-radius:2rem ;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.why:hover{
+  background-color: #e2d3d3;
+  cursor: pointer;
+}
+
+.why-1:hover{
+  background-color: #7973bc;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  padding: 0.5rem;
+}
+
+.answer{
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+.answer-list{
+  text-align: left;
+  display: inline-block;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  background-color: azure;
+padding: 2rem;
+}
+
+.list-even:hover{
+  background-color: #cce7ff;
+  text-transform: capitalize;
+}
+
+.list-odd:hover{
+  background-color: #e0e0e0;
+  text-transform: capitalize;
+}
+
+.mcq{
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 2rem;
+  background-color: #bca8a8;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+
+.cardStyle{
+  border: 2px solid black;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  padding: 1rem;
+  width: 15rem;
+  background-color: #f0f0f0;
+}
+
+.cardStyle:hover{
+   transform: scale(1.05);
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  background-color: #d1d1d1;
+}
